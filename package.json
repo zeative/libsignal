@@ -4,7 +4,6 @@
   "main": "dist/index.js",
   "author": "zaadevofc",
   "license": "MIT",
-  "homepage": "https://www.npmjs.com/package/@zaadevofc/libsignal",
   "repository": {
     "url": "https://github.com/zeative/libsignal"
   },
