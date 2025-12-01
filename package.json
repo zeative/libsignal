@@ -5,9 +5,9 @@
   "license": "MIT",
   "scripts": {
     "build": "rolldown -c",
-    "r:patch": "npm run build && npm version patch && npm publish",
-    "r:minor": "npm run build && npm version minor && npm publish",
-    "r:major": "npm run build && npm version major && npm publish"
+    "r:patch": "npm run build && npm version patch && npm publish --access public",
+    "r:minor": "npm run build && npm version minor && npm publish --access public",
+    "r:major": "npm run build && npm version major && npm publish --access public"
   },
   "dependencies": {
     "curve25519-js": "^0.0.4",
